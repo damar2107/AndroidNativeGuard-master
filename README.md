@@ -23,6 +23,9 @@ Android Native Guard used various open-source projects to implement a true-secur
 # Notes
 - Don't forget to add `android:extractNativeLibs="true"` to your `AndroidManifest.xml` so that module _AntiLibPatch_ can work properly.
 
+- to use string obfuscator, use AY_OBFUSCATE("string");
+  example: const char* obfuscatedUrl = AY_OBFUSCATE("https://myapiurl.net/auth/login");
+
 # Credits
 https://github.com/darvincisec/AntiDebugandMemoryDump
 

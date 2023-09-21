@@ -18,6 +18,7 @@
 #include "RootDetect/RootDetect.h"
 #include "AntiDump/AntiDump.h"
 #include "AntiLibPatch/AntiLibPatch.h"
+#include "strobfus/obfuscator.h"
 
 JavaVM *g_VM;
 
